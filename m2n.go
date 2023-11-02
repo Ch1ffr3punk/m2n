@@ -68,5 +68,5 @@ func main() {
     
     c.Quit()
 
-    fmt.Println("Email Sent!")
+    fmt.Println("Message Sent!")
 }
