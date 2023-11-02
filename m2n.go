@@ -28,7 +28,7 @@ func main() {
     message, _ := ioutil.ReadAll(os.Stdin)
 
     // Connect to the server, set the sender and recipient,
-    // and send the email all in one step.
+    // and send the message all in one step.
     
     c, err := smtp.Dial(host + ":5870")
     if err != nil {
