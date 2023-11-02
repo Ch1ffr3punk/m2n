@@ -12,10 +12,10 @@ func main() {
     // contacting server as
     from := "user@localhost"
 
-    // sending email to
+    // sending message to
     to := "mail2news@dizum.com"
 
-    // server we send email through
+    // server we send message through
     host := "127.0.0.1"
 
     // check if there is piped input
